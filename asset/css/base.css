@@ -1,0 +1,56 @@
+:root{
+    --while--color :#fff;
+    --black--color :#000;
+    --text--color :#333;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem ;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid_full-width {
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: 12px;
+  
+}
+.grid__collum-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.66667%;
+}
+.grid__collum-10{
+    margin: 16px 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.33334%;
+}
+/*animation*/
+@keyframes hienlen {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes listtb {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}  
+
